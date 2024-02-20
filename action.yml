@@ -15,6 +15,7 @@ inputs:
     default: 'https://index.docker.io/v1/'
 branding:
   color: 'blue'
+  icon: 'anchor'
 runs:
   using: 'node20'
   main: 'lib/login.js'
