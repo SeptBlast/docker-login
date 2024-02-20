@@ -1,5 +1,5 @@
-name: 'Azure Container Registry Login'
-description: 'Log in to Azure Container Registry (ACR) or any private container registry'
+name: 'Container Registry Login'
+description: 'Log in to Azure Container Registry (ACR) or any private container registry like Harbor, JFrog, DockerHub etc...'
 inputs: 
   username:
     description: 'Container registry username'
@@ -14,7 +14,7 @@ inputs:
     required: true
     default: 'https://index.docker.io/v1/'
 branding:
-  color: 'green'
+  color: 'blue'
 runs:
   using: 'node20'
   main: 'lib/login.js'
